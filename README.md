@@ -1,8 +1,11 @@
 Employee Management API
+
 📌 Project Overview
+
 The Employee Management API is a backend application built using Spring Boot. It provides RESTful APIs to manage employee records, including adding, updating, deleting, and retrieving employee details.
 
 🛠️ Technologies Used
+
 Java (JDK 17 or later)
 Spring Boot
 Spring Data JPA
@@ -13,31 +16,49 @@ Postman / Swagger (for API testing)
 📂 Project Structure
 bash
 Copy
+
 employee-management-api/
+
 │-- src/
+
 │   ├── main/
+
 │   │   ├── java/com/example/employee/
-│   │   │   ├── controller/      # REST API controllers  
+
+│   │   │   ├── controller/      # REST API controllers 
+
 │   │   │   ├── model/           # Employee entity  
+
 │   │   │   ├── repository/      # Database operations  
+
 │   │   │   ├── service/         # Business logic  
+
 │   │   ├── resources/
-│   │   │   ├── application.properties  # App configuration  
+
+│   │   │   ├── application.properties  # App configuration 
+
 │-- target/  
+
 │-- pom.xml  
-│-- README.md  
+
+│-- README.md 
+
 ⚙️ Installation and Setup
+
 1️⃣ Prerequisites
+
 Ensure you have the following installed:
 
 Java 17+
 Maven
 MongoDB / MySQL
+
 2️⃣ Clone the Repository
 sh
 Copy
 git clone https://github.com/your-repo/employee-management-api.git
 cd employee-management-api
+
 3️⃣ Configure Database
 Update the application.properties file:
 For MySQL:
@@ -54,6 +75,7 @@ For MongoDB:
 properties
 Copy
 spring.data.mongodb.uri=mongodb://localhost:27017/employee_db  
+
 4️⃣ Build and Run
 sh
 Copy
