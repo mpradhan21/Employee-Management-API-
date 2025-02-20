@@ -13,35 +13,7 @@ Hibernate
 MongoDB / MySQL (Choose one for data storage)
 Maven (for project build and dependency management)
 Postman / Swagger (for API testing)
-📂 Project Structure
-bash
-Copy
 
-employee-management-api/
-
-│-- src/
-
-│   ├── main/
-
-│   │   ├── java/com/example/employee/
-
-│   │   │   ├── controller/      # REST API controllers 
-
-│   │   │   ├── model/           # Employee entity  
-
-│   │   │   ├── repository/      # Database operations  
-
-│   │   │   ├── service/         # Business logic  
-
-│   │   ├── resources/
-
-│   │   │   ├── application.properties  # App configuration 
-
-│-- target/  
-
-│-- pom.xml  
-
-│-- README.md 
 
 ⚙️ Installation and Setup
 
